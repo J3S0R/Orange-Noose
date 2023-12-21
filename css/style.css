@@ -52,6 +52,9 @@ body{
 .dropdown-item:hover{
     color: #CBAC6B!important;
 }
+.color-gold{
+    color: #CBAC6B;
+}
 .gold{
     background: #CBAC6B;
 }
@@ -298,5 +301,34 @@ nav ul li {
 }
   
 } 
+
+/* CONTACT */
+.presentation-contact{
+    background: center url("/assets/img/visuel/header-contact.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.myMap {
+    filter: grayscale(100%) invert(85%);
+}
+
+.franche:hover{
+    display: block!important;
+    opacity: 1;
+}
+.franche {
+    opacity: 0;
+}
+.franche-container:hover img{
+    opacity: 0.6;
+}
+.franche-container:hover .franche{
+    opacity: 1;
+}
+
+/* 404 ERROR */
+
 
 

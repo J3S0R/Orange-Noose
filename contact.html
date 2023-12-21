@@ -1,23 +1,116 @@
 <!DOCTYPE html>
-<html lang="FR-fr">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script defer src="./js/main.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script defer src="js/main.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Présentation</title>
 </head>
 
 <body>
+  <header>
+    <nav class="navbar py-0 navbar-expand-lg navbar-light">
+      <div class="container-fluid w-95 m-auto">
+        <!-- Logo -->
+        <a class="navbar-brand ms-0 me-3" href="index.html">
+          <img class="logo-site" src="assets/img/gallery/header/logo.png" alt="Logo">
+        </a>
 
-    <!-- CONTACT - SECTION 1 -->
-    <section>
+        <!-- Burger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Liens de navigation -->
+        <div class="collapse justify-content-around navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex fontSize w-40 h-100px">
+            <li class="nav-item p-2 d-flex align-items-center ">
+              <a class="nav-link text-uppercase text-white" href="#">L'équipe</a>
+            </li>
+            <li class="nav-item text-white d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              LES ACTIVITÉS
+            </li>
+            <ul class="dropdown-menu bg-dark position-absolute start-25 rounded-0">
+              <li>
+                <a class="dropdown-item text-bg-dark p-3" href="presentation.html">LE CYCLING</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-bg-dark p-3" href="presentation.html">LE TRAINING FONCTIONNEL</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-bg-dark p-3" href="presentation.html">LE CROSSFIT</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-bg-dark p-3" href="presentation.html">PERSONNALTRAINING - COACH PERSONNEL</a>
+              </li>
+            </ul>
+          
+            <li class="nav-item p-2 d-flex align-items-center">
+              <a class="nav-link text-uppercase text-white" href="#">Nos offres</a>
+            </li>
+            <li class="nav-item p-2 d-flex align-items-center">
+              <a class="nav-link text-uppercase text-white" href="#">Planning</a>
+            </li>
+            <li class="nav-item p-2 d-flex align-items-center">
+              <a class="nav-link text-uppercase text-white" href="#">Le blog</a>
+            </li>
+            <li class="nav-item p-2 d-flex align-items-center">
+              <a class="nav-link text-uppercase text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item p-2 d-flex d-lg-flex d-xl-none align-items-center">
+              <a class="nav-link text-uppercase text-white" href="#">Réseaux</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-between w-30 d-md-none d-xl-flex">
+            <div class="nav-mobile d-flex  align-items-center">
+              <img src="assets/img/gallery/header/clarity_mobile-solid.svg" class="mobile" alt="mobile">
+              <span class="text-white text-align fontSize d-none d-xl-block d-xxl-block">05 59 47 84 18</span>
+            </div>
+
+            <!-- Socials -->
+            <div class="socials d-flex w-30 align-items-center d-sm-none d-md-none d-xl-flex">
+              <ul class="d-flex justify-content-around mb-0 w-60">
+                <li><a href="#"><img src="/assets/img/gallery/header/uil_facebook.svg" alt="facebook"></a></li>
+                <li><a href="#"><img src="/assets/img/gallery/header/mdi_instagram.svg" alt="instagram"></a></li>
+                <li><a href="#"><img src="/assets/img/gallery/header/simple-icons_tripadvisor.svg" alt="tripad"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Téléphone -->
+          <div class="bandeauFr position-absolute top-0 w-30">
+            <p>EN</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="presentation-contact">
+
+    </div>
+  </header>
+  <main>
+    <section class="container">
 
 
         <!-- GRILLE COORDONEES + FORUMUALIRE -->
-        <div class="row mx-5">
+        <div class="row mx-5 mt-5">
 
             <!-- GRILLE COORDONNEES -->
             <div class="col-md-3">
@@ -56,7 +149,7 @@
 
             <div class="col-md-9">
                 <h2 class="h1-responsive fw-bold my-1 pb-1">Formulaire de contact</h2>
-                <img src="img/bg_titre.jpg" alt="titre">
+                <img src="assets/img/gallery/bg_titre.jpg" alt="titre">
                 <form name="contact-form" id="formulaire" class="text-center mt-5">
 
                     <!--Grid row-->
@@ -122,8 +215,8 @@
                     </div>
                     <!--Grid row-->
                     
-                    <div class="text-md-left mt-4">
-                        <button type="submit"  class="btn btn-primary">Envoyer</button>
+                    <div class="mt-4 text-start">
+                        <button type="submit"  class="btn btn-primary gold rounded-0">Envoyer</button>
                     </div>
                 </form>
 
@@ -133,7 +226,124 @@
 
     </section>
 
+    <!-- MAP -->
+    <section>
+        <div class="container-fluid px-0 mt-5 mb-0">
+            <iframe class="myMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9698.46167097915!2d-1.564757070154497!
+            3d43.482179980537126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd516ad0bacd24f3%3A0x431daa357560
+            ab2b!2s4%20Rue%20de%20la%20Cit%C3%A9%2C%2064200%20Biarritz!5e0!3m2!1sfr!2sfr!4v1703082615504!5m2!1sfr!2sfr" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
 
+    <!-- INSTAGRAM -->
+    <section>
+        <div class="container-fluid mt-0 px-0">
+            <div class="row align-items-center position-relative">
+                <div class="col-md-2 franche-container col border-0 m-0 p-0 position-relative"> 
+                    <img class="inst img-fluid"
+                        src="assets/img/gallery/coach/martial-coach-crossfit-biarritz.jpg" alt="#" />
+                    <div class="franche position-absolute top-50 start-50 translate-middle justify-content-center align-items-center">
+                        <i class="fa-solid fa-heart pe-3" style="color: white;">145</i>
+                        <i class="fa-solid fa-comment pe-3" style="color: white;">6</i>
+                    </div>
+                </div>
+                <div class="col-md-2 franche-container col border-0 m-0 p-0 position-relative">
+                    <img class="inst img-fluid"
+                        src="assets/img/gallery/coach/bastien-coach-fitness-biarritz-cote-basque.jpg" alt="#" />
+                    <div class="franche position-absolute top-50 start-50 translate-middle d-flex justify-content-right">
+                        <i class="fa-solid fa-heart pe-3" style="color: white;">145</i>
+                        <i class="fa-solid fa-comment pe-3" style="color: white;">6</i>
+                    </div>
+                </div>
+                <div class="col-md-2 franche-container col border-0 m-0 p-0 position-relative">
+                    <img class="inst img-fluid"
+                        src="assets/img/gallery/coach/elise-coach-biarritz-salle-de-sport.jpg" alt="#" />
+                    <div class="franche position-absolute top-50 start-50 translate-middle d-flex justify-content-right">
+                        <i class="fa-solid fa-heart pe-3" style="color: white;">145</i>
+                        <i class="fa-solid fa-comment pe-3" style="color: white;">6</i>
+                    </div>
+                </div>
+                <div class="col-md-2 franche-container col border-0 m-0 p-0 position-relative">
+                    <img class="inst img-fluid"
+                        src="assets/img/gallery/coach/julien-coach-biarritz-fitness-studio-sport.jpg" alt="#">
+                    <div class="franche position-absolute top-50 start-50 translate-middle d-flex justify-content-right">
+                        <i class="fa-solid fa-heart pe-3" style="color: white;">145</i>
+                        <i class="fa-solid fa-comment pe-3" style="color: white;">6</i>
+                    </div>
+                </div>
+                <div class="col-md-2 franche-container col border-0 m-0 p-0 position-relative">
+                    <img class="inst img-fluid"
+                        src="assets/img/gallery/coach/julie-coach-fitness-biarritz.jpg" alt="#" />
+                    <div class="franche position-absolute top-50 start-50 translate-middle d-flex justify-content-right">
+                        <i class="fa-solid fa-heart pe-3" style="color: white;">145</i>
+                        <i class="fa-solid fa-comment pe-3" style="color: white;">6</i>
+                    </div>
+                </div>
+                <div class="col-md-2 franche-container col border-0 m-0 p-0 position-relative">
+                    <img class="inst img-fluid"
+                        src="assets/img/gallery/coach/martial-coach-crossfit-biarritz_1.jpg" alt="#" />
+                    <div class="franche position-absolute top-50 start-50 translate-middle d-flex justify-content-right">
+                        <i class="fa-solid fa-heart pe-3" style="color: white;">145</i>
+                        <i class="fa-solid fa-comment pe-3" style="color: white;">6</i>
+                    </div>
+                </div>
+                    <div class="text-center position-absolute top-50 start-50 translate-middle">
+                        <button type="button" class="btn btn-light rounded-0 fw-bold">
+                            @STUDIOBIARRITZ
+                        </button>
+                    </div>
+                <!-- <button type="button"
+                    class="btn btn-light col-md-2 rounded-0 w-12 fw-bold position-absolute top-50 start-50 translate-middle">@STUDIOBIARRITZ
+                </button> -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light pt-2">
+
+        <div class="container mt-5">
+          <div class="row mb-6">
+            <!-- Première ligne -->
+            <div class="col-md-4 ps-5 mb-6 ms-3">
+              <img src="assets/img/gallery/footer/logo_footer.png" class="max-width-15 px-3 d-inline">
+              <p class="fs-5 text fw-lighter py-1 d-inline">A PROPOS</p>
+              <p class="text-left fw-normal fw-lighter ps-3">2018 cStudio Sport Biarritz <br>
+                Salle de sport, de fitsses et de crossfit <br>
+                à Biarritz Pay basque. <br>
+                RCS: 000 000 000 <br>
+                <a href="#" class="text-white fw-normal fw-lighter pb-3">Mentions légales</a>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <p class="text-left fs-5 text fw-lighter">STUDIO SPORT CORPORATE</p>
+              <p class="text-left fw-normal fw-lighter"><img src="assets/img/gallery/bg_titre_blanc.jpg" class="w-10 img-fluid"> Studio
+                Center: créez votre studio <br>
+                <img src="assets/img/gallery/bg_titre_blanc.jpg" class="max-width-15 fw-lighter w-10"> Offres Spéciales C.E. <br>
+                <a href="#" class="text-white fw-normal fw-lighter pb-3 text-decoration-none"><img src="assets/img/gallery/bg_titre_blanc.jpg"
+                    class="w-10 img-fluid"> Devenir partenaire</a>
+              </p>
+            </div>
+            <div class="col-md-4 me-1">
+              <p class="text-right fs-5 text fw-lighter">FITNESS CROSSFIT ET TRAINING AU PAYS BASQUE</p>
+              <p class="text-right fw-normal fw-lighter">Coach personnel de sport à Biarritz,
+                <a href="#" class="text-white fw-normal fw-lighter pb-3 text-decoration-none">Coach personnel de sport à Anglet</a>, Salle de sport BAB, Fitness à Biarritz, Sessions de fitness à Anglet, Fitness sur le BAB, Autre mot clé + ville, Autre mot clé + ville, Autre mot clé + ville
+              </p>
+            </div>
+          </div>
+          <!-- Deuxième ligne -->
+        </div>
+        <div class="bg-black row mt-3 pt-1 g-0 container-fluid">
+          <div class="text-center text-right d-flex justify-content-center align-items-center h-20">
+            <p class="fs-10 m-0 text-end">
+              un site créé par<br>
+             <span class="fw-bold">L'AGENCE 364 COM</span>
+            </p>
+            <img src="logos/364 logo footer.png" class="px-2 py-3 pt-4">
+          </div>
+      </footer>
+
+  </main>
 </body>
-
 </html>
